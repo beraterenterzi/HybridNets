@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 from torch.nn.modules.loss import _Loss
 import torch.nn.functional as F
-from utils.utils import postprocess, display, BBoxTransform, ClipBoxes
+from utils.utils import postprocess, BBoxTransform, ClipBoxes
 from typing import Optional, List
 from functools import partial
 
